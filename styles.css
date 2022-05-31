@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+    font-family: "Orbitron";
+    font-size: 48px;
+    letter-spacing: 3px;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left_navbar {
+    height: 89vh;
+    flex: 1;
+    background-color: #1d293e;
+  }
+
+
+.containerlogo {
+    height: 500px;
+    position: relative;
+  }
+  
+.centerlogo {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
+}
+
+.containercycle {
+  height: 500px;
+  position: relative;
+}
+
+.centercycle {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, 180%);
+}
+
+section {
+  height: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  flex-direction: column;
+  text-align: center;
+}
+section .clock {
+  border-radius: 8px;
+  color: white;
+}
+
+.format {
+  color: white;
+  font-size: 18px;
+  margin: 30px 0;
+  border-style: solid;
+  border-radius: 15px;
+  padding: 20px;
+  transition: 0.5s;
+  transition-property: background, box-shadow;
+}
+
+.format:hover {
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border: 10px; 
+    border-color: white;
+}
+
+.format button {
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px 20px;
+  font-family: "Orbitron";
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+
